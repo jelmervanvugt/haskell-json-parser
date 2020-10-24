@@ -4,16 +4,16 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: d2bcab5dc3ee18863de4c4a2ff1a4b2a99b15cafca04045702a1d58d9fc84899
+-- hash: 24d28a36ae8ac582c0cfecc43448099ca853596a028871bb23546568ca93c7ea
 
 name:           haskell-json-parser
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/Github username here/haskell-json-parser#readme>
-homepage:       https://github.com/Github username here/haskell-json-parser#readme
-bug-reports:    https://github.com/Github username here/haskell-json-parser/issues
+description:    Please see the README on GitHub at <https://github.com/githubuser/haskell-json-parser#readme>
+homepage:       https://github.com/githubuser/haskell-json-parser#readme
+bug-reports:    https://github.com/githubuser/haskell-json-parser/issues
 author:         Author name here
-maintainer:     Author email here
-copyright:      2019 Author name here
+maintainer:     example@example.com
+copyright:      2020 Author name here
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -23,7 +23,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/Github username here/haskell-json-parser
+  location: https://github.com/githubuser/haskell-json-parser
 
 library
   exposed-modules:
