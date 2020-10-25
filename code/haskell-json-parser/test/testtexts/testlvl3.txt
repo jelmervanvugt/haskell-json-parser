@@ -1,0 +1,16 @@
+{
+    "nullvalue":            null,
+    "stringvalue":          "stringvalue",
+    "integervalue":         1,
+    "booltruevalue":        true,
+    "boolfalsevalue":       false,
+    "arrayvalue":           [null, "stringvalue", 1, true, false],
+    "objectvalue":          {
+                            "objectnullvalue":            null,
+                            "objectstringvalue":          "stringvalue",
+                            "objectintegervalue":         1,
+                            "objectbooltruevalue":        true,
+                            "objectboolfalsevalue":       false,
+                            "objectarrayvalue":           [null, "stringvalue", 1, true, false],
+                            }
+}
