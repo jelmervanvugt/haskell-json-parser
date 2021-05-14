@@ -6,6 +6,8 @@ bin-release/
 
 # Other files and folders
 .settings/
+code/haskell-json-parser/dist-newstyle/
+code/haskell-json-parser/.ghc.environment.x86_64-mingw32-9.0.1
 
 # Executables
 *.swf
