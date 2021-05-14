@@ -1,7 +1,0 @@
-{
-    "nullvalue":            null,
-    "stringvalue":          "stringvalue",
-    "integervalue":         1,
-    "booltruevalue":        true,
-    "boolfalsevalue":       false
-}
