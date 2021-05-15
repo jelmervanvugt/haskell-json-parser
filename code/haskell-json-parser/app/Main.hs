@@ -1,3 +1,5 @@
+{-# LANGUAGE DeriveGeneric #-}
+
 {-
     Haskell Json Parser
     by: Jelmer van Vugt
@@ -47,19 +49,18 @@ instance Show JValue where
     where
       showKV (k, v) = showJSONString k ++ ": " ++ show v
 
-showJSONString :: String -> String
-
 -- Strings are notated with quotation marks
+showJSONString :: String -> String
 showJSONString s = "\"" ++ concatMap showJSONChar s ++ "\""
 
 -- The definition of control characters in Haskell and JSON differ.
 -- This is why this parser implements his own.
-isControl :: Char -> String
+isControl :: Char -> Bool
 isControl c = c `elem` ['\0' .. '\31']
 
 showJSONChar :: Char -> String
 showJSONChar c = case c of
-    "\'" -> "'"
+    '\'' -> "'"
     '\"' -> "\\\""
     '\\' -> "\\\\"
     '/'  -> "\\/"
